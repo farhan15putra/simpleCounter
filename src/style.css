@@ -1433,3 +1433,12 @@ main {
   .candidate-card { padding: 20px; }
   .candidate-card .vote-display strong { font-size: 38px; }
 }
+
+/* Keep candidate controls clear of progress bar. */
+.candidate-card .progress-wrap {
+  margin-bottom: 14px;
+}
+
+.candidate-card .cand-controls {
+  padding-top: 2px;
+}
